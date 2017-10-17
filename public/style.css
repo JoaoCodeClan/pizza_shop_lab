@@ -1,0 +1,39 @@
+html {
+  background: #F5F5DC;
+  
+}
+
+p {
+
+  font-family: 'Times New Roman', 30px, sans-serif;
+  color: Black;
+  text-align: justify;
+}
+nav {
+
+  background: tomato;
+  font-size: 35px;
+  text-align: justify;
+  text-transform: none;
+  border-radius:30px;
+  position: relative;
+  width:150px;
+}
+
+a{
+
+  font-size: 20px;
+  text-align: justify;
+  color: blue;
+}
+
+input {
+  background: green;
+  font-size: 18px;
+  text-align: justify;
+  color: white;
+  border-radius:30px;
+  position: relative;
+
+
+}
