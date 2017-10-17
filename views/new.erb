@@ -1,0 +1,27 @@
+<form method="post" action="/pizzas">
+  <label for="first-name">First name </label>
+  <input id="first-name" type="text" name="first_name"/>
+
+<br></br>
+  <label for="last-name">Last name </label>
+  <input id="last-name" type="text" name="last_name"/>
+
+<br></br>
+  <label for="pizza-select">Select a pizza</label>
+  <select id="pizza-select" name="topping">
+  <option value="Margherita"> Margherita </options>
+  <option value="Calzone"> Calzone </options>
+  <option value="Vegetarian"> Vegetarian </options>
+  <option value="Meat feast"> Meat feast </options>
+  </select>
+<br></br>
+
+
+  <label for="quantity"> Amount </label>
+  <input id="quantity" type="number" name="quantity"/>
+<!-- can put min and max on the line above by min="number" max = "number" -->
+<br></br>
+
+  <input type="submit" value="Order pizza"/>
+
+</form>
