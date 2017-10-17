@@ -35,7 +35,6 @@ erb(:edit)
 end
 
 post '/pizzas/:id' do
-@pizza = Pizza.new(params)
-@pizza.update()
+@pizza = Pizza.new(params).update
 redirect "/pizzas"
 end
